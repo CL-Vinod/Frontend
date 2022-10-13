@@ -1,0 +1,56 @@
+.totalmargin{
+    width: 95%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    /* padding-left: 2%; */
+    padding-right: 4.5%;
+    /* padding-top: 8%; */
+    }
+
+    .userlist{
+    position: absolute;
+     
+     width: 287px;
+     height: 28px;
+    
+     /* medium 20px */
+     
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 28px;
+     /* identical to box height, or 140% */
+     
+     z-index: 100;
+     color: #000000;
+
+     margin-left: 50%;
+     left:-122px;
+     margin-top: 16px;
+     }
+
+     .btnuser{
+        position: absolute;
+        width: 143px;
+        height: 44px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        border: none;
+        background: rgba(32, 160, 216, 0.8);
+        border-radius: 5px;
+        z-index: 100;
+        right: 93px;
+        margin-top: 9px;
+
+    }
+    .btnuser:hover {
+        background-color: var(--ezblue);
+        font-weight: 700;
+        box-shadow: 0px 0px 10px rgba(32, 160, 216, 0.8);
+    }
+    

@@ -1,0 +1,512 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    height: 75px;
+    background: var(--navbarbg);
+}
+
+
+
+
+
+.navbar1{
+   position: absolute;
+    width: 100%;
+   
+    height: 75px;
+    background: var(--navbarbg);
+}
+
+.ezppaylogotop{
+    position: absolute;
+    width: 265.11px;
+    height: 70px;
+    left: 71px;
+    top: 2px;
+    /* background: url('../images/ez_logo.png');  */
+}
+
+.Toastify__toast-container {
+    /* background: #22BB33; */
+    border: 0px solid #22BB33;
+    border-radius: 16px;
+    z-index: var(--toastify-z-index);
+    -webkit-transform: translate3d(0, 0, var(--toastify-z-index) px);
+    position: fixed;
+    padding: 4px;
+    width: var(--toastify-toast-width);
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.Toastify__toast-container {
+    top: 2em !important;
+    height: 0% !important;
+    right: 1em !important;
+    width: 19% !important;
+}
+.Toastify__toast-body {
+    font-family: 'Montserrat' !important;
+    font-size: 21px !important;
+    margin: auto 0;
+    flex: 1 1 auto;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.Toastify__toast {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    --nth: 1;
+    --len: 1;
+    background: #E0F0E2;
+    /* border: 3px solid #22BB33; */
+    position: relative;
+    min-height: var(--toastify-toast-min-height);
+    box-sizing: border-box;
+    margin-bottom: 6%;
+    padding: 8px;
+    border-radius: 15px !important;
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%), 0 2px 15px 0 rgb(0 0 0 / 5%);
+    display: flex;
+    justify-content: space-between;
+    max-height: var(--toastify-toast-max-height);
+    overflow: hidden;
+    font-family: var(--toastify-font-family);
+    cursor: pointer;
+    direction: ltr;
+    z-index: 0;
+}
+
+.Toastify__progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px !important;
+    z-index: var(--toastify-z-index);
+    opacity: 0.7;
+    transform-origin: left;
+}
+
+.signuplink  a{
+    text-decoration: none;
+    color: var(--ezblue);
+}
+
+.ezppaylogo{
+    /* position: absolute; */
+    width: 100%;
+    height: 17%;
+    left: 75px;
+    top: 344px; 
+    margin-top: 10%;
+}
+
+.body1{
+    background: #FFFFFF;
+    width: 100%;
+    margin-left: 9%;
+    height: 100%;
+    position: fixed;
+    margin-top: 16%;
+    align-content: center;
+    display: flex;
+}
+
+
+
+.rightbody{
+    margin: 10%;
+    
+    width: 500px;
+    height: 616px;
+    left: 797px;
+    top: 107px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    margin-top: -7%;
+    font-family: "Montserrat";
+
+
+}
+
+.button1{
+    width: 337px;
+    height: 50px;
+    left: 887px;
+    top: 513px;
+    background: #0F3374;
+    border-radius: 5px;
+    font-family: "Montserrat";
+
+}
+
+.userloginn{
+    padding-top: 0px;
+    height: 94%;
+    color: rgb(255, 255, 255);
+    width: 86%;
+    margin-left: 11%;
+    background-color: var(--ezblue);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    border-radius: 5px;
+    border: none;
+}
+
+.patientloginn{
+    height: 94%;
+    color: rgb(0, 0, 0);
+    width: 86%;
+    margin-left: 11%;
+    background-color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    border-radius: 5px;
+    border: none;
+}
+
+.linetab{
+    width: 97%;
+    height: 0px;
+    border: 1px solid #000000;
+    /* margin-left: -13%; */
+    margin-top: 1%;
+}
+
+.signintotext{
+    margin-top: -8%;
+    margin-left: 12%;
+    /* position: absolute; */
+    width: 300px;
+    height: 28px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(47, 49, 52, 0.6);
+}
+
+.span1{
+    font-family: 'Montserrat';
+    color: red;
+    font-size: 15px;
+    /* position: absolute; */
+    margin-left: 0rem;
+    margin-top: 0.5rem;
+}
+
+.designleft{
+    margin-top: -1%;
+    margin-left: 4.5%;
+}
+
+.designright{
+    margin-left: 54.5%;
+    margin-top: -6.8%;
+}
+
+.textusername{
+    box-sizing: border-box;
+    position: absolute;
+    width: 337px;
+    height: 44px;
+    left: 942px;
+    top: 270px;
+    background: #FFFFFF;
+    border: 1px solid #D9DCED;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.labelusername{
+
+width: 91px;
+height: 28px;
+left: 942px;
+top: 246px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+color: #080808;
+margin-top: 2%
+
+}
+
+.textpassword{
+    box-sizing: border-box;
+    position: absolute;
+    width: 337px;
+    height: 44px;
+    left: 942px;
+    top: 270px;
+    background: #FFFFFF;
+    border: 1px solid #D9DCED;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.labelpassword{
+
+    width: 91px;
+    height: 28px;
+    left: 942px;
+    top: 246px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #080808;
+    
+    }
+    .footerline{
+        padding: 23px;
+        color: white;
+    }
+
+    .labelfooter{
+
+        padding: 22px;
+        /* width: 4%; */
+        height: 28px;
+        left: 942px;
+        top: 246px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: var(--footerfontclr);
+        }
+
+.labelpassword123{
+    margin-left: 2%;
+    width: 50%;
+    height: 28px;
+ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--smalltxt);
+    line-height: 28px;
+    /* identical to box height, or 140% */
+   
+    background: var(--color);
+    
+    }
+
+    .signinbutton1{
+      margin-top: 4%;
+        padding-top: -1%;
+        width: 84%;
+        height: 50px;
+        background-color: var(--ezblue);
+        border-radius: 5px;
+        color: white;
+        border: none;
+        font-size: var(--mediumtxt);
+        
+       
+
+    }
+
+    .form-group1 .signinbutton1:hover {
+        background-color: var(--ezblue);
+        font-weight: 700;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+    }
+  
+    .redinput{
+        accent-color: rgb(15, 51, 116);
+        }
+
+    .usernamecontainer{
+        position: absolute;
+        width: 91px;
+        height: 28px;
+        left: 942px;
+        top: 246px;
+    }
+
+    .passwordcontainer{
+        position: absolute;
+        width: 91px;
+        height: 28px;
+        left: 942px;
+        top: 246px;
+    }
+
+    .signuplink{
+        width: 83%;
+        height: 28px;
+        /* left: 1000px; */
+        /* top: 600px; */
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+      
+        text-align: center;
+    }
+
+    .a .signuplink {
+        color: var(--ezblue);
+        text-decoration: none;
+    }
+
+    .form-group{
+        margin-left: 14%;
+        
+    }
+
+    .form-control{
+        width: 84%;
+    }
+    .buttonshowhide{
+        width: 3%;
+        padding-top: -11px;
+        position: absolute;
+        border: none;
+        background-color: transparent;
+        margin-left: 14%;
+        height: 0%;
+        margin-top: -2%;
+    }
+
+
+    .hideicon{
+        width: 64%;
+        border: none;
+        color: var(--ezblue);
+        
+    }
+    .password-toggle-icon {
+        width: 91%;
+        position: absolute;
+        /* top: 8px; */
+        margin-top: -0.2%;
+        margin-left: 1.7%;
+    
+    }
+  
+ 
+
+
+    .form-select{
+        width: 84%;
+    }
+
+
+    .footerez{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        color: var(--footerfontclr);
+        background-color: var(--footerbg);
+    }
+
+    .footer_top_part{
+        margin-top: -1%;
+    margin-left: 27%;
+    }
+
+
+    .footer_bottom_part{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height, or 117% */
+        text-align: center;
+        padding-top: 1%;
+        color: var(--footerfontclr);
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        background-color: #2F3134;
+    }
+
+    @media screen and (max-width: 1280px) {
+        .designleft{
+            display: none;
+    
+        }
+        /* .rightbody {
+            margin: 10% 10% 10% 10%;
+        } */
+        
+        .designright{
+            display: none;
+        }
+
+  
+        .signintotext{
+            font-size: 20px;
+            width: 13rem;
+            margin-top: 0%;
+          
+        }
+
+        .ezppaylogo{
+            object-fit: contain;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .rightbody {
+            margin: 10% 10% 10% 10%;
+        }
+    
+        .designleft{
+            display: none;
+    
+        }
+        
+        .designright{
+            display: none;
+        }
+    
+        .signintotext{
+            font-size: 14px;
+            width: 13rem;
+            margin-top: 0%;
+        }
+    
+        .logoleft{
+            display: none;
+           
+        }
+
+        .navbar{
+            max-width: 100%;
+        }
+      }

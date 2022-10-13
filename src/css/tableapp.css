@@ -1,0 +1,186 @@
+.MuiTableRow-root1{
+    color: inherit;
+    display: flex;
+    outline: 0;
+    vertical-align: middle;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+
+.MuiTableRow-root.MuiTableRow-hover:hover {
+    box-shadow: 0px 0px 3px rgb(0 0 0 / 50%), -2px 0px 4px rgb(0 0 0 / 50%);
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.tabletotalrows{
+    position: relative;
+    top: -20px;
+    height: 19px;
+    left: 10px;
+}
+
+
+.datetime1{
+    width: 13rem;
+    display: inline-flex;
+    margin-left: 3rem;
+}
+
+.MuiPaper-elevation2 {
+    box-shadow: var(--buttonshadow);
+
+}
+
+
+.disp2{
+    display: inline-flex;
+    padding-bottom: 10px;
+}
+
+.displaylist{
+    display: block;
+    line-height: 41px;
+}
+
+.displaylist .iconprop{
+    font-size: 2rem ;   
+}
+
+.buttonlabel{
+    text-transform: capitalize;
+    font-size:  18px;
+}
+
+.buttonlabel1{
+    text-transform: capitalize;
+    font-size: 18px;
+    align-content: "top";
+}
+
+.btn112{
+    margin-top: 5%;
+    line-height: 3.5rem;
+    text-transform: capitalize;
+    
+}
+
+.button23{
+    color: white !important; 
+    background-color: rgba(32, 160, 216, 0.8) !important;
+    width: 100%  ;
+}
+
+.labeldetails{
+    padding-left: 9px;
+    display: inline-block;
+}
+
+.labelcount{
+    padding-left: 16px;
+}
+
+.MuiTableCell-root MuiTableCell-body MuiTableCell-paddingNone .MuiButtonBase-root MuiIconButton-root
+{
+    transition: all 200ms ease 0s;
+    transform: rotate(180deg) !important;
+
+}
+
+.card11{
+    border: 1px solid transparent;
+    width: 25%;
+    display: grid;
+    border-image: linear-gradient(180deg, rgb(181 154 154 / 15%) 5.05%, #8a5555 25.05%, #000000 70.51%, rgba(0, 0, 0, 0.15) 92.32%);
+    border-image-slice: 1;
+}
+
+.card11content{
+    display: inline-block
+}
+
+.card11image{
+    width: 97%;
+    height: 85%;
+    background: rgba(32, 160, 216, 0.3);
+    box-shadow: 4px 4px 4px rgba(32, 160, 216, 0.5);
+    border-radius: 5px;
+}
+
+.card33{
+    border: 1px solid transparent;
+    width:31%;
+    border-image: linear-gradient(180deg, rgb(181 154 154 / 15%) 5.05%, #8a5555 25.05%, #000000 70.51%, rgba(0, 0, 0, 0.15) 92.32%);
+    border-image-slice: 1;
+}
+
+.labelcard11{
+    display: inline-flex; 
+    padding-top:0.5rem
+}
+
+.card22{
+    border: 1px solid transparent;
+    width:28%;
+    display: grid;
+    border-image:linear-gradient(180deg, rgb(181 154 154 / 15%) 5.05%, #8a5555 25.05%, #000000 70.51%, rgba(0, 0, 0, 0.15) 92.32%);
+    border-image-slice: 1;
+}
+
+.card22content{
+    display: inline-block
+}
+
+.patientlabelbalance{
+float: right;
+font-weight: 700;
+}
+
+.card44{
+    border: 1px solid transparent;
+    width:39%; 
+    border-image: linear-gradient(180deg, rgb(181 154 154 / 15%) 5.05%, #8a5555 25.05%, #000000 70.51%, rgba(0, 0, 0, 0.15) 92.32%);
+    border-image-slice: 1;
+}
+
+.MuiTableCell-root{
+    font-family: 'Monsterrat';
+}
+
+.tableshdw{
+    box-shadow: var(--buttonshadow);
+    font-family: 'Montserrat';
+
+}
+
+.card55{
+    border: 1px solid transparent;
+    margin-top:6%;
+     border-image: linear-gradient( 180deg, rgb(181 154 154 / 15%) 1.05%, #8a5555 15.05%, #000000 70.51%, rgba(0, 0, 0, 0.15) 80.32%);
+     border-image-slice: 1;
+}   
+
+.totbal{
+    float: right;
+    font-weight: 700;
+}
+
+.card44content{
+    padding-right: 30px;
+    display: grid;
+    line-height: 3rem;
+    text-align: left;
+    margin-top: 3%;
+    letter-spacing: 1px;
+}
+
+.boxdesign{
+    min-width:500;
+    border: 1px solid #20A0D8;
+    box-shadow: 0px 0px 10px rgba(0, 42, 152, 0.46);
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+
+}

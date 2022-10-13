@@ -1,0 +1,215 @@
+.New_User_Add1{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    height: 77%;
+    /* margin: 8%; */
+    background: #FFFFFF;
+    margin-left: 5%;
+    margin-top: 5.5%;
+}
+.user_heading1{
+    position: absolute;
+width: 536px;
+height: 28px;
+margin-top: 15px ;
+margin-left: 3px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+.save_button1{ 
+    margin-left: 67.2%;
+    width: 106px;
+    height: 42px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    background: rgba(32, 160, 216, 0.3);
+    border-radius: 5px;
+    border: none;
+}
+
+.save_button1:hover {
+    background-color: rgba(32, 160, 216, 0.3);
+    font-weight: 700;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+}
+
+.reset_pass_btn{
+    margin-left: 1%;
+    width: 198px;
+    height: 42px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    background: rgba(32, 160, 216, 0.9);
+border-radius: 5px;
+border:none ;
+}
+
+.reset_pass_btn:hover {
+    background-color: var(--ezblue);
+    font-weight: 700;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+}
+
+.userlist_button1{
+margin-left: 1%;
+width: 143px;
+height: 42px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+background: rgba(32, 160, 216, 0.9);
+border-radius: 5px;
+border:none ;
+}
+
+.userlist_button1:hover {
+    background-color: var(--ezblue);
+    font-weight: 700;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+}
+
+.personal_details1{
+    margin-top: 5px;
+    margin-left: 1rem;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 420;
+font-size: 20px;
+line-height: 28px;
+color: #000000;
+}
+
+.container1b{
+    background-color: lightblue;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    /* margin-top: 1rem; */
+    padding: 2px 3px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.usermanagementedituser {
+    margin-left: 3.6rem;
+    display: flex;
+    height: 64px;
+    margin-top: 1rem;
+}
+
+.usermanagementedituser input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 11.5px;
+
+
+    color: black;
+}
+
+.edituser_fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8.3%;
+}
+
+.editcontactdetails{
+    width: 93.5%;
+    margin-top: 1rem;
+    border: 1px solid #000000;
+border-radius: 4px;
+height: 161px;
+}
+
+.editcontactdetails1{
+    width: 93.5%;
+    margin-top: 1rem;
+    border: 1px solid #000000;
+border-radius: 4px;
+height: 200px;
+}
+
+
+.editpersonaldetails1{
+    margin-top: 1rem;
+    box-sizing: border-box;
+ 
+    width: 93.5%;
+    height: 168px;
+    
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.edituserInput {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+font-weight: 400;
+align-items: center;
+/* padding: 21.3333px 26.6667px; */
+gap: 10.67px;
+margin-top: 1.7rem;
+position: absolute;
+width: 375px;
+height: 44px;
+background: #FFFFFF;
+border: 1.33333px solid #20A0D8;
+border-radius: 5.33333px;
+}
+
+.edituserLabel {
+    margin-bottom: 0px;
+    width: 425px;
+    height: 28px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+   
+    color: #2F3134;
+}
+
+.active_user1b{
+    height: 13px;
+    margin-left: 5px;
+}
+.spann1{
+    font-family: 'Montserrat';
+    color: red;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 7.2vh;
+}
+.active_user11b{
+    margin-top: -28px;
+    margin-left: 5.5rem;
+}
+
+.chk1{
+    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+}

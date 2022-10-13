@@ -1,0 +1,13 @@
+.progress{
+    margin-top: 1%;
+width: 72%;
+height: 7px;
+margin-left: 14%;
+}
+
+.strength p{
+    margin-left: 14%;
+    color: rgb(234, 17, 17);
+    font-size: 14px;
+    margin-top: 4px;
+}

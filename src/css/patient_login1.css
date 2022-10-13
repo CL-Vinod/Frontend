@@ -1,0 +1,200 @@
+.view_my_details_btn{
+    box-sizing: border-box;
+    width: 375px;
+    height: 60px;
+    color: #FFFFFF;
+    background: var(--navbarbg);
+    border: 1px solid #4f5055;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+.userloginn1{
+    padding-top: 0px;
+    height: 94%;
+    color:   rgb(0, 0, 0);
+    width: 86%;
+    margin-left: 11%;
+    background-color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    border-radius: 5px;
+    border: none;
+}
+
+.patientloginn1{
+    height: 94%;
+    color: rgb(255, 255, 255);
+    width: 86%;
+    margin-left: 11%;
+    background-color: var(--ezblue);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    border-radius: 5px;
+    border: none;
+}
+
+.linetab1{
+    width: 97%;
+    height: 0px;
+    border: 1px solid #000000;
+    margin-top: 1%;
+}
+.signintotext1{
+   /* position: absolute;  */
+    width: 300px;
+    height: 28px;
+    margin-left: 13%;
+    margin-top: -10.1%;
+    /* font-family: "Montserrat"; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(47, 49, 52, 0.6);
+}
+
+.designleft1{
+    margin-top: -1%;
+    margin-left: 4.5%;
+}
+
+.designright1{
+    margin-left: 54.5%;
+    margin-top: -4.2%;
+}
+
+.formPatient{
+    border: none;
+    margin-left:12.2%;
+    margin-top:2.5%;
+    line-height:0.7;
+}
+
+
+
+.form-group{
+    margin-left: 2.5%;
+    margin-top: 3.5%;
+}
+
+.form-control{
+    width: 84%;
+}
+
+.form-select{
+    width: 84%;
+}
+
+.labelpassword{
+
+    width: 91px;
+    height: 28px;
+    left: 942px;
+    top: 246px;
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #080808;
+    
+    }
+
+    .span2{
+        font-family: 'Montserrat';
+        color: red;
+        width: 28%;
+        font-size: 12px;
+        position: absolute;
+        margin-top: 0.6vh;
+        line-height: 22px;
+    }
+
+    .signinbutton2{
+      
+        margin-top: 3.5%;
+        width: 84%;
+        height: 50px;
+        background-color: var(--ezblue);
+        border-radius: 5px;
+        color: white;
+        border: none;
+        font-size: var(--mediumtxt);
+
+    }
+
+    .form-group .signinbutton2:hover {
+        background-color: var(--ezblue);
+        font-weight: 700;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+    }
+    
+
+    .textusername{
+        box-sizing: border-box;
+        position: absolute;
+        width: 337px;
+        height: 44px;
+        left: 942px;
+        top: 270px;
+        background: #FFFFFF;
+        border: 1px solid #D9DCED;
+        border-radius: 5px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .labelusername{
+    
+    width: 91px;
+    height: 28px;
+    left: 942px;
+    top: 246px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #080808;
+    
+    }
+    
+    .textpassword{
+        box-sizing: border-box;
+        position: absolute;
+        width: 337px;
+        height: 44px;
+        left: 942px;
+        top: 270px;
+        background: #FFFFFF;
+        border: 1px solid #D9DCED;
+        border-radius: 5px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    
+        .usernamecontainer{
+            position: absolute;
+            width: 91px;
+            height: 28px;
+            left: 942px;
+            top: 246px;
+        }
+    
+        .passwordcontainer{
+            position: absolute;
+            width: 91px;
+            height: 28px;
+            left: 942px;
+            top: 246px;
+        }
+    
+    

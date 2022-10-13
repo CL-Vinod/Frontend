@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.popup {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 480px;
+    margin-top: 401px;
+    animation-name: popup_animation;
+    animation-duration: 0.3s;
+    box-sizing: border-box;
+    width: 1069px;
+    height: 127px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+
+}
+
+.successPopup {
+    background-color: #E0F0E2;
+    border: 1px solid #22BB33;
+    box-shadow: #22BB33 0px 7px;
+}
+
+
+.failurePopup {
+    background-color: #F5EEE5;
+    border: 1px solid #F0AD4E;
+    box-shadow: #F0AD4E 0px 7px;
+}
+
+.popupText {
+    /* position: absolute; */
+    width: 735px;
+    height: 28px;
+
+    margin-left: 16px;
+
+    /* Title Large - Montserrat medium 24px */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    /* flex: none;
+    order: 1;
+    flex-grow: 0; */
+}
+
+.faCircleCheck {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    z-index: 3;
+    color: #22BB33;
+}
+
+.faTriangleExclamation {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    z-index: 3;
+    color: #F0AD4E;
+    margin-bottom: 4px;
+}
+
+#popup_cancel_button_section {
+    position: absolute;
+    right: 13px;
+    /* top: 37px; */
+
+}
+
+.popupIcon_inside_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    margin: 13px;
+    /* margin-right: 13px;
+    margin-bottom: 13px; */
+    background-color: white;
+    border-radius: 100%;
+    /* border: 0.5px solid #22BB33; */
+    height: 46px;
+    width: 46px;
+    z-index: 2;
+    /* padding-right: 1px; */
+}
+
+.fasquareSuccess {
+    /* position: absolute; */
+    margin-left: 21px;
+    border-radius: 20px;
+    height: 74px;
+    width: 74px;
+    z-index: 1;
+    background-color: #22BB33;
+    /* margin-top: 24px; */
+}
+
+.fasquareFailure{
+    margin-left: 21px;
+    border-radius: 20px;
+    height: 74px;
+    width: 74px;
+    z-index: 1;
+    background-color: #F0AD4E;
+}
+
+
+.popup_cancel_button {
+    order: 3;
+    color: rgba(47, 49, 52, 0.9);
+    height: 30px;
+    width: 30px;
+}
+
+.popup_cancel_button :hover {
+    cursor: pointer;
+}
+
+.username_recovery_form {
+    margin-left: 34%;
+    margin-top: 16%;
+    /* position: absolute; */
+    width: 517px;
+    height: 270px;
+    left: 461px;
+    top: 249px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px #000000;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+#test {
+    left: 400px;
+}
+
+.username_recovery_heading {
+    /* User ID Recovery */
+    /* position: absolute; */
+    width: 503px;
+    height: 28px;
+    margin-left: 176px;
+    margin-top: 36px;
+
+    /* Title Large - Montserrat medium 20px */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    color: #000000;
+
+
+}
+
+.username_recovery_subheading {
+    /* position: absolute; */
+    width: 304px;
+    height: 21px;
+    margin-left: 106px;
+    top: 313px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+
+    text-align: center;
+
+    /* Color Guidance/Neutral/50 */
+
+    color: rgba(47, 49, 52, 0.5);
+}
+
+.partition_line {
+    /* position: absolute; */
+    width: 471px;
+    height: 0px;
+
+
+    /* Color Guidance/Neutral/50 */
+    /* margin-top: 85px; */
+    margin-left: 23px;
+    border: 0.5px solid rgba(47, 49, 52, 0.5);
+}
+
+.hr {
+    /* position: absolute;  */
+    width: 401px;
+    height: 0px;
+    margin-left: 50px;
+    top: 334px;
+
+    /* Color Guidance/Neutral/50 */
+
+    border: 0.5px solid rgba(47, 49, 52, 0.5);
+}
+
+.username_recovery_form_field {
+    height: 92px;
+}
+
+.username_recovery_label {
+    position: absolute;
+
+    width: 58px;
+    height: 28px;
+    margin-left: 90px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+
+    /* Title Large - Montserrat medium 20px */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Color Guidance/Neutral/100 */
+
+    color: #2F3134;
+
+
+
+}
+
+.username_recovery_label.fa-check {
+
+    position: absolute;
+    left: 59.1%;
+    right: 39.72%;
+    top: 51.29%;
+    bottom: 47.13%;
+
+    /* Color Guidance/Primary/100 */
+
+    background: #0F3374;
+}
+
+.username_recovery_input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 337px;
+    height: 44px;
+    margin-left: 90px;
+    margin-top: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D9DCED;
+    border-radius: 5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.username_recovery_input::placeholder {
+    padding-left: 21px;
+}
+
+/* Forget password */
+
+
+
+
+/* .heading{
+            position: absolute; 
+            width: 173px;
+            height: 28px;
+            left: 637px;
+            top: 285px;
+            
+            /* Title Large - Montserrat medium 20px */
+/* align-items: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px; */
+/* identical to box height, or 140% */
+/* margin-left: 100px;
+            color: #000000;
+            
+        } */
+
+
+.hrhead {
+    position: absolute;
+    width: 401px;
+    height: 0px;
+    left: 484px;
+    top: 334px;
+
+    /* Color Guidance/Neutral/50 */
+
+    border: 0.5px solid rgba(47, 49, 52, 0.5);
+}
+
+
+.btnemail {
+    /* padding-top: -1%; */
+    width: 337px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin-left: 90px;
+    /* margin-top:8px; */
+    margin-bottom: 43px;
+    background: var(--ezblue);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: var(--mediumtxt);
+}
+
+.btnemail:hover {
+    box-shadow: var(--buttonshadow);
+    font-weight: var(--btnhoverftweight);
+}
+
+
+.overlay {
+    height: 99vh;
+    width: 100vw;
+    /* opacity: 0.2; */
+    background: rgba(217, 217, 217, 0.73);
+
+}
+
+/* .modalClose{
+    width: 1069px;
+    height: 127px;
+    animation-name: popup_animation;
+    animation-direction: reverse;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    
+} */
+
+/* @keyframes popup_close {
+    0%{
+        scale:1;
+    }
+    10%{
+        scale:1.05;
+    }
+    100%{
+        scale: 0;
+    }
+} */
+
+@keyframes popup_animation {
+    0% {
+        scale: 0.1;
+    }
+
+    90% {
+        /* width: 1175.9;
+        height: */
+        scale: 1.05;
+    }
+
+    100% {
+        /* width: 1069px;
+        height: 127px; */
+        scale: 1.0;
+    }
+}

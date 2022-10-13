@@ -1,0 +1,24 @@
+{
+    "questions": [
+        {
+            "id": 0,
+            "question": "What is the name of the town where you were born?"
+        },
+        {
+            "id": 1,
+            "question": "In what city or country do you want to retire?"
+        },
+        {
+            "id": 2,
+            "question": "What is your mother's middle name?"
+        },
+        {
+            "id": 3,
+            "question": "what is your favorite movie?"
+        },
+        {
+            "id": 4,
+            "question": "what is your favorite animal?"
+        }
+    ]
+}

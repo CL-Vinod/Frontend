@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+
+#root{
+
+  /* COLORS */
+
+
+  /* NavBar Background */
+  --navbarbg: #2F3134;  /* old color(rgb(15, 51, 116))*/
+
+  /* EZPPAY DEFAULT BACKGROUND */
+  --ezblue: #20A0D8;  /* old color(rgb(15, 51, 116)))*/
+
+  /* DEFAULT FONT WEIGHT*/
+  --fw: 500;
+
+  /* Fonts */
+
+
+    /*Footer Related*/
+
+
+
+    --footerbg: rgb(193 196 200);
+    --footerfontclr: rgba(47, 49, 52, 0.8);
+
+
+
+
+  /* Large Text - Montserrat medium 28px */
+
+  --largetxt: 28px;
+
+  /* Medium text - Montserrat medium 24px */
+
+  --mediumtxt: 24px;
+
+  /* Normal text- Montserrat medium 20px */
+
+  --normaltxt: 20px;
+
+  /* small Text - Montserrat medium 16px */
+
+  --smalltxt: 16px;
+
+  /* Main Button Related Stuff */
+
+--buttonshadow: 0px 0px 10px rgb(0 0 0 / 50%); /*(boxshadow)*/
+
+--btnhoverftweight: 700; /*Font Weight On Hover*/
+
+
+
+
+}
+body, html {
+  font-family: "Montserrat" !important;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
